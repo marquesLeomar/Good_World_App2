@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:background="#D4CBB0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tarefas">
+
+    <Button
+        android:id="@+id/btnsair3"
+        android:layout_width="228dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/botao"
+        android:gravity="center"
+        android:onClick="btnvoltar"
+        android:text=" go back"
+        android:textColor="#D4CBB0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnapoieme" />
+
+    <Button
+        android:id="@+id/btntarefa"
+        android:layout_width="228dp"
+        android:layout_height="99dp"
+        android:background="@drawable/botao"
+        android:gravity="center"
+        android:onClick="btninicia"
+        android:text="Start Now"
+        android:textColor="#D4CBB0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textReflex" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="283dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mundo" />
+
+    <TextView
+        android:id="@+id/textMotiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Motivate!"
+        android:textColor="#EC6425"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textObjetivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Objective!"
+        android:textColor="#34BF10"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMotiva" />
+
+    <TextView
+        android:id="@+id/textReflex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text=" Reflects!"
+        android:textColor="#521119"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textObjetivo" />
+
+    <Button
+        android:id="@+id/btnapoieme"
+        android:layout_width="228dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/botao"
+        android:gravity="center"
+        android:onClick="btnporxima1"
+        android:text=" Support me!"
+        android:textColor="#D4CBB0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntarefa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
