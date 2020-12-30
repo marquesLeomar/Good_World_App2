@@ -1,4 +1,7 @@
-# Good_World_App2
+<p align="center">
+  # Good_World_App2
+</p>
+
 
 <p align="center">
 Meu primeiro aplicativo de frases motivacionais que são geradas aleatórimanete em Java.
