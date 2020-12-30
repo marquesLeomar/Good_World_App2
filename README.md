@@ -17,15 +17,20 @@ Meu primeiro aplicativo de frases motivacionais que são geradas aleatórimanete
   <img src="https://github.com/marquesLeomar/Good_World_App2/blob/master/Screenshot_20200725-065053_Good%20World.jpg">
 </p>
 
-![inicaial](https://github.com/marquesLeomar/Good_World_App2/blob/master/Screenshot_20200725-065053_Good%20World.jpg)
+
+
+<p align="center">
+  <img src="https://github.com/marquesLeomar/Good_World_App2/blob/master/GWG.png">
+</p>
 
 
 
-![inicaial](https://github.com/marquesLeomar/Good_World_App2/blob/master/GWG.png)
+<p align="center">
+  <img src="https://github.com/marquesLeomar/Good_World_App2/blob/master/Screenshot_20200725-065044_Good%20World.jpg">
+</p>
 
 
 
-![inicaial](https://github.com/marquesLeomar/Good_World_App2/blob/master/Screenshot_20200725-065044_Good%20World.jpg) 
 
 
 
